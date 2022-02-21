@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Ladder
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -11,12 +14,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - BG
+  - BG_buildings
   - Ground
+  - Buildings
   - 
-  - 
-  - 
+  - player
   - 
   - 
   - 
@@ -41,9 +44,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 4227734813
-    locked: 0
   - name: BackGround
     uniqueID: 1082707491
+    locked: 0
+  - name: props
+    uniqueID: 3955261587
+    locked: 0
+  - name: Enemy
+    uniqueID: 2142854255
+    locked: 0
+  - name: Player
+    uniqueID: 4227734813
     locked: 0
